@@ -48,7 +48,7 @@ jobs:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
         run: |
           npm i -g @railway/cli
-          railway up --service chat --detach
+          railway up --service K4-DAY12-2A202601876-DoVietTung --detach
 
       - name: Smoke test sau deploy
         run: |
